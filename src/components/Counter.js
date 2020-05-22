@@ -12,14 +12,17 @@ const Counter = () => {
   const decrement = () => setCount((prevCount) => prevCount - 1);
 
   return (
-    <div className='row mt-5'>
-      <div className='col-2'>count: {count}</div>
-      <button className='btn btn-primary px-3 mx-2' onClick={increment}>
-        +
-      </button>
-      <button className='btn btn-danger px-3 mx-2' onClick={decrement}>
-        -
-      </button>
+    <div className='border border-primary rounded p-3'>
+      <h2>Counter: </h2>
+      <div className='row'>
+        <span className='col-2'> {count}</span>
+        <button className='btn btn-primary px-3 mx-2' onClick={increment}>
+          +
+        </button>
+        <button className='btn btn-danger px-3 mx-2' onClick={decrement}>
+          -
+        </button>
+      </div>
     </div>
   );
 };
