@@ -3,6 +3,7 @@ import { RecoilRoot } from "recoil";
 
 import Counter from "components/Counter";
 import CharacterCount from "components/CharacterCount";
+import Dogs from "components/Dogs";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className='container mt-5'>
         <Counter />
         <CharacterCount />
+        <Dogs />
       </div>
     </RecoilRoot>
   );

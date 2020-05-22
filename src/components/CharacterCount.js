@@ -18,7 +18,7 @@ const CharacterCount = () => {
   const count = useRecoilValue(characterCount);
 
   return (
-    <div className='border border-primary rounded p-3'>
+    <div className='border border-primary rounded p-3 m-1'>
       <h2>Characters: </h2>
       <div className='row'>
         <div className='col-2'> {count}</div>

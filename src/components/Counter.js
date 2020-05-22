@@ -12,7 +12,7 @@ const Counter = () => {
   const decrement = () => setCount((prevCount) => prevCount - 1);
 
   return (
-    <div className='border border-primary rounded p-3'>
+    <div className='border border-primary rounded p-3 m-1'>
       <h2>Counter: </h2>
       <div className='row'>
         <span className='col-2'> {count}</span>
