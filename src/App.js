@@ -1,7 +1,14 @@
 import React from "react";
+import { RecoilRoot } from "recoil";
+
+import Counter from "components/Counter";
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <RecoilRoot>
+      <Counter />
+    </RecoilRoot>
+  );
 }
 
 export default App;
