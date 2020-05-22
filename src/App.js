@@ -6,7 +6,9 @@ import Counter from "components/Counter";
 function App() {
   return (
     <RecoilRoot>
-      <Counter />
+      <div className='container'>
+        <Counter />
+      </div>
     </RecoilRoot>
   );
 }
